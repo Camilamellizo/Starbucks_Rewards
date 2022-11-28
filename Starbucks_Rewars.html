@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <title>Starbucks_Rewars</title>
+</head>
+
+<body>
+    <div class="tracking-[1.4px]">
+        <header>
+            <nav class=" bg-white font-mono font-bold ">
+                <div class="max-w-8xl mx-auto bg-white">
+                    <div class="grid grid-cols-12">
+                        <!-- logo -->
+                        <div class="col-span-4 lg:col-span-2  flex justify-center">
+                            <img src="/Starbucks_Rewards/logo.png" alt="" class="h-12 w-16 lg:h-24 lg:w-32 " />
+                        </div>
+
+                        <!-- menu 1 -->
+                        <div class="hidden lg:block lg:col-span-6  lg:flex items-center">
+                            <ul class="flex text-[21px]">
+                                <li
+                                    class="hover:border hover:border-4 hover:border-transparent hover:border-b-[#008248]">
+                                    MENU
+                                </li>
+                                <li
+                                    class="mx-8 hover:border hover:border-4 hover:border-transparent hover:border-b-[#008248]">
+                                    REWARDS
+                                </li>
+                                <li
+                                    class="hover:border hover:border-4 hover:border-transparent hover:border-b-[#008248]">
+                                    GIFT CARDS
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- menu 2 -->
+                        <div
+                            class="hidden lg:block col-span-4 lg:flex items-center justify-between lg:text-sm xl:text-[21px]">
+
+                            <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    style="fill: rgba(0, 0, 0, 1);">
+                                    <path
+                                        d="M12 2C7.589 2 4 5.589 4 9.995 3.971 16.44 11.696 21.784 12 22c0 0 8.029-5.56 8-12 0-4.411-3.589-8-8-8zm0 12c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z">
+                                    </path>
+                                </svg>
+                                Find a store
+                            </div>
+                            <button class="rounded-full border border-black py-2 px-4">Sign in</button>
+                            <button class="rounded-full border border-black py-2 px-4 bg-black text-white lg:mr-2">Join
+                                now</button>
+                        </div>
+
+                        <!-- menu movil -->
+                        <div class="col-span-8 lg:hidden flex items-center justify-end pr-4">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="bg-[#1e3932] text-white fixed w-full font-bold h-12">
+                <!-- Menu  -->
+                <div class="hidden lg:block ">
+                    <p class="py-2 px-8">STARBUCKS® REWARDS</p>
+                </div>
+
+                <!-- Menu movil-->
+                <div class="grid grid-cols-2 lg:hidden">
+                    <div class="col-span-1 ">
+                        <p class="px-2 ">STARBUCKS® REWARDS</p>
+
+                    </div>
+                    <div class="col-span-1 flex justify-end">
+                        <button
+                            class="rounded-full border border-white py-1 px-6 bg-[#1e3932] text-white my-2 mx-2">Join
+                            now</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <main class="bg-[#d4e9e2] font-sans text-center">
+            <div class="lg:hidden">
+                <!-- main movil -->
+                <div class="mt-12">
+                    <h1 class="text-xl font-bold pt-10">
+                        FREE COFFEE <br />
+                        IS A TAP AWAY
+                    </h1>
+                    <h2 class="text-base my-6">Join now to start earning Rewards.</h2>
+                </div>
+                <div>
+                    <button class="rounded-full bg-[#008248] px-6 py-2 text-white">
+                        Join Now
+                    </button>
+                </div>
+
+                <div>
+                    <p class="underline mx-2 py-6">Or join in online</p>
+                </div>
+                <div class="flex justify-end">
+                    <img src="/Starbucks_Rewards/assets/star_mini.png" alt="">
+                </div>
+            </div>
+            
+    </div>
+
+    <!-- main lg -->
+    <div class="hidden bg-[#d4e9e2] lg:block lg:grid grid-cols-2 lg:pl-[40px]">
+
+        <div class="col-span-1 grid content-center h-[40rem]">
+            <div>
+                <h1 class="text-4xl font-bold">
+                    FREE COFFEE <br />
+                    IS A TAP AWAY
+                </h1>
+                <h2 class="text-lg my-10">Join now to start earning Rewards.</h2>
+            </div>
+            <div>
+                <button class="rounded-full bg-[#008248] px-6 py-2 text-white">
+                    Join Now
+                </button>
+            </div>
+
+            <div class="flex flex-wrap mt-4 ">
+                <p>Or</p>
+                <p class="underline mx-2">join in the app</p>
+                <p>for the best experience</p>
+            </div>
+        </div>
+
+
+        <div class="bg-fondo bg-no-repeat bg-right">
+
+        </div>
+
+    </div>
+
+    </main>
+    </div>
+</body>
+
+</html>
