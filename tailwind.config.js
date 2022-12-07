@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'fondo': "url('/Starbucks_Rewards/assets/star.png')",
-
+        'fondo': "url('./assets/star.png')",
+        'fondomini': "url('./assets/star_mini.png')",
+        'logo': "url('./assets/logo.png')",
       }
     },
   },
