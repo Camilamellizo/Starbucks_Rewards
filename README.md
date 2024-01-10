@@ -1,9 +1,12 @@
-# Interactive rating component
-
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
+# Starbucks_page
 
 ## Welcome! 👋
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help to improve coding skills by building realistic projects.
+This challenges help to improve coding skills by building realistic projects.
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+In this case we recreated the Starbucks page, making it responsive for all types of screens.
+
+**To do this challenge, you need a basic understanding of HTML, CSS and Tailwind.**
+
+![https://github.com/Camilamellizo/Starbucks_Rewards](https://raw.githubusercontent.com/Camilamellizo/Starbucks_Rewards/main/Starbucks_Rewards-main/1.png)
+
