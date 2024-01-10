@@ -8,5 +8,5 @@ In this case we recreated the Starbucks page, making it responsive for all types
 
 **To do this challenge, you need a basic understanding of HTML, CSS and Tailwind.**
 
-![https://github.com/Camilamellizo/Starbucks_Rewards](https://raw.githubusercontent.com/Camilamellizo/Starbucks_Rewards/main/Starbucks_Rewards-main/1.png)
+![https://github.com/Camilamellizo/Starbucks_Rewards](https://raw.githubusercontent.com/Camilamellizo/Starbucks_Rewards/main/1.jpg)
 
